@@ -1,0 +1,62 @@
+.navbar {
+    background: #010101;
+    box-shadow: 1px 3px 5.58px 0.42px rgba(0, 0, 0, .51);
+    width: 100%;
+
+    ul {
+        padding: 5px 0;
+
+        li {
+            display: inline-block;
+
+            a {
+                text-transform: capitalize;
+                padding: 11px 8px;
+                letter-spacing: 1px;
+                font-weight: n;
+                color: #fff;
+                font-size: 12px;
+                text-decoration: none;
+            }
+
+            .report_dropdown{
+
+                position: absolute;
+                display: none;
+
+                li{
+                    display: block;
+                    background: #ffffff;
+                    transition: all .25s ease;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+                    padding: 9px 15px;
+                    
+                    a{
+                        text-transform: capitalize;
+                        text-decoration: none;
+                        
+                        width: 170px;
+                        font-size: 13px;
+                        color: #000;
+                        font-weight: 400;
+
+                        &:hover{
+                            color: #ce8d00;
+                        }
+
+        
+                    }
+
+                  
+                }
+
+            }
+        }
+
+        .menu_report:hover .report_dropdown
+            {
+                display: block;
+            }
+    }
+
+}

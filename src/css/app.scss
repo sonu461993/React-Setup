@@ -1,0 +1,29 @@
+@import  'login';
+@import 'fonts';
+@import 'header';
+@import 'navbar';
+@import 'sidebar';
+
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+
+*, body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins-Medium';
+}
+
+.arrow
+{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block !important;
+    padding: 3px;
+}
+
+.arrow_bottom
+{
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
