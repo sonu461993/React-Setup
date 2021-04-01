@@ -15,7 +15,7 @@ export default class Login extends Component {
     }
     render() {
         return (
-            <div>
+            <div data-testid="login">
                 <div className="login_mainContainer">
                     <div className="loginBox">
                         <div className="loginLogo">
